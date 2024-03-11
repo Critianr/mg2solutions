@@ -10,6 +10,8 @@ body{
 }
 .offer{
   background-color: #761113;
+  color: #FDDFBA;
+  text-align: center;
 }
 
 
@@ -94,6 +96,7 @@ body{
 
 footer{
   background-color: #761113;
+  color: #FDDFBA;
   display: flex;
 }
 footer .grid-container img{
