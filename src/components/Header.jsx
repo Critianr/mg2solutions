@@ -1,6 +1,7 @@
 import hdlogo from '../assets/mdmlogo.png';
+import ExamOffcan from './ExamOffcan'
 import menuimg from '../assets/menu.svg';
-
+import Menu from './menu/Menu';
 function Header() {
 
 
@@ -19,7 +20,10 @@ function Header() {
           {/* <li><a href="#"></a></li>
           <li><a href="#"></a></li>
           <li><a href="#"></a></li> */}
-          <span className='menu'><img src={menuimg} alt="" /></span>
+          <span className='menu'> 
+          <Menu />
+          </span>
+          
         </div>
       </header>
       </>

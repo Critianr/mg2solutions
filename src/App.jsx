@@ -3,6 +3,14 @@ import foundimg from './assets/notimg.jpeg';
 import {Header} from './components/Header';
 import { Footer } from './components/Footer';
 import UncontrolledExample from './components/UncontrolledExample';
+// import About from './pages/About';
+import Contact from './pages/Contact';
+import Pines from './pages/Pines';
+import Medallas from './pages/Medallas';
+import Joyeria from './pages/Joyeria';
+// import InsigniasMilitares from './pages/InsigniasMilitares';
+
+// import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import './App.css'
 
 function App() {
@@ -55,4 +63,3 @@ function App() {
 }
 
 export default App;
-
