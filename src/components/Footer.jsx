@@ -6,17 +6,26 @@ import Whatp from '../assets/whatsapp-icons.svg';
 function Footer(){
     return(
         <>
-        <footer>  
+ <footer>  
   <div className='grid-container'>
+    <div>
     <img src={maslcaro} alt="" />
-  </div>
+    </div>
   <div className="footer-contacto">
-    <p>Don't miss out Subscribe to our mailing list for 
-      insider news, product launches, and more.</p>
+    
+    <p>Cra. 110 Bis #64d-64, Bogotá</p>
+    <p>Correo: comercial@2mgsolutions.com</p>
       <div className='follows'>
         <img className='svg-follows' src={Intam} alt="" />
-        <img className='' src={Fb} alt="" />
-        <img className='' src={Whatp} alt="" />
+        <img className='svg-follows' src={Fb} alt="" />
+        <img className='svg-follows' src={Whatp} alt="" />
+      </div>
+      
+  </div>
+  <div className='copyright'>
+     <p>
+      2MG Solutions © Todos los derechos reservados 2022
+     </p>
       </div>
   </div>
 </footer>

@@ -29,8 +29,17 @@ function MenuButton() {
      </Offcanvas.Header>
      <Offcanvas.Body>
        <div>
-         Contenido del menú aquí
+        Chequea todos nuestros productos
        </div>
+    <ul className='nav-menu'>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Acerca   de</a></li>
+    <li><a href="#">Contacto</a></li>
+    <li><a href="#">Servicios</a></li>
+    <li><a href="#">Galería</a></li>
+    <li><a href="#">Blog</a></li>
+  </ul>
+
      </Offcanvas.Body>
    </Offcanvas>
    </>
