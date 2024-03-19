@@ -23,24 +23,39 @@ function Home(){
       <div className="grid-container">
       
       <div className="item">
+      <a href="#" className="image-link">
       <img src={foundimg} alt="Imagen 1" />
+      <p className="image-title">Título de la imagen 1</p>
+      </a>  
       </div>
       <div className="item">
-      <img src={foundimg} alt="Imagen 2" />
-      </div>
+      <a href="#" className="image-link">
+        <img src={foundimg} alt="Imagen 2" />
+        <p className="image-title">Título de la imagen 1</p>
+      </a>
+    </div>  
 
       <div className="item full-width">
+      <a href="#" className="image-link">
       <img src={foundimg} alt="Imagen 3" />
+      <p className="image-title">Título de la imagen 1</p>
+      </a>
       </div>
 
       <div className="item">
+      <a href="#" className="image-link">
       <img src={foundimg} alt="Imagen 4" />
+      <p className="image-title">Título de la imagen 1</p>
+      </a>
       </div>
 
       <div className="item">
+      <a href="#" className="image-link">
       <img src={foundimg} alt="Imagen 5" />
+      <p className="image-title">Título de la imagen 1</p>
+      </a>
       </div>
-
+      
       </div>
     </div>
     {/*  */}

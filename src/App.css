@@ -1,13 +1,15 @@
-body{
-  max-width: 100%;
+body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 #root {
   max-width: 100%;
 
-  
+
   margin: 0 auto;
   /* padding: 2rem; */
-  
+
 }
 .offer{
   background-color: #761113;
@@ -15,16 +17,13 @@ body{
   text-align: center;
 }
 
-
-
-
-
 .wrp-header{
   display: flex;
   align-content: center;
   align-items: center;
   justify-content: space-around;
   
+
 }
 .wrp-header .wrp-title{
   display: flex;
@@ -46,7 +45,7 @@ body{
   align-items: center;
   align-content: center;
   justify-content: center;
-  
+
 }
 
 .wrp-header .wrp-logo img{
@@ -57,7 +56,7 @@ body{
   align-items: center;
   align-content: center;
   justify-content: center;
-  
+
 }
 
 h2{
@@ -65,6 +64,8 @@ h2{
 }
 .gallery img{
   width: 100%;
+  /* max-width: 100%; Asegura que las imágenes no se desborden del contenedor */
+  /* height: auto; Mantiene la proporción de aspecto de las imágenes */
 }
 .description{
   font-size: 12px;
@@ -81,12 +82,26 @@ h2{
 }
 
 .item {
+  position: relative; /* Asegura que los elementos secundarios estén posicionados relativamente a este contenedor */
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid #ddd;
 }
-
+.image-link {
+  position: relative; /* Asegura que los elementos secundarios estén posicionados relativamente a este enlace */
+  display: inline-block; /* Permite establecer un ancho y alto al enlace */
+}
+.image-title {
+  position: absolute; /* Posiciona el título de la imagen de forma absoluta */
+  bottom: 0; /* Lo coloca en la parte inferior */
+  left: 0; /* Lo coloca en la esquina izquierda */
+  width: 100%; /* Ajusta el ancho al 100% del contenedor */
+  background-color: rgba(0, 0, 0, 0.5); /* Agrega un fondo semitransparente */
+  color: white; /* Establece el color del texto */
+  padding: 10px; /* Añade relleno alrededor del texto */
+  margin: 0; /* Elimina el margen */
+}
 .item img {
   max-width: 100%;
   height: auto;
@@ -99,25 +114,34 @@ h2{
 footer{
   background-color: #761113;
   color: #FDDFBA;
-  /* display: flex; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column; /* Para apilar los elementos verticalmente en dispositivos móviles */
+  align-items: center; /* Para centrar los elementos horizontalmente */
   /* aqui */
     /* display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px; */
 }
 footer .grid-container img{
-  width: 90px;
+  width: 100%; /* Haz que las imágenes ocupen todo el ancho del contenedor */
+  max-width: 140px;
+  margin: 0%;
+  padding: 0% ;
 }
 
 footer .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Dos columnas de tamaño igual */
   grid-template-rows: auto auto; /* Dos filas de tamaño automático */
-  grid-gap: 10px;
+  grid-gap: 5px;
+  margin: 15px;
 }
 /* footer .item1, */
 footer .footer-contacto {
   grid-column: span 1; /* Ocupa una columna */
+  text-align: center;
+
 }
 
 footer .copyright {
@@ -127,18 +151,24 @@ footer .copyright {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #ddd;
-
   text-align: center;
-  border: 1px solid #ddd;
+  font-size: 12px;
+
 }
 footer .footer-contacto{
-  /* margin: 10px;
-  padding: 5px; */
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+
+}
+footer .footer-contacto p{
+  margin:0;
+  padding-top: 20px;
 
 }
 footer .footer-contacto .follows > img{
-  width: 20px; 
+  width: 20px;
+  margin: 4px;
 }
 
 .footer-contacto .follows{
@@ -148,9 +178,7 @@ footer .footer-contacto .follows > img{
   padding: 5px; */
 
 }
-.footer-contacto .follows .svg-follows{
-  margin: 4px;
-}
+
 
 /* menu */
 /* Menu.css */

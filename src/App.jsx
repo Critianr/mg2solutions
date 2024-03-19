@@ -1,5 +1,6 @@
 import React from 'react';
-
+import {Header} from './components/Header';
+import { Footer } from './components/Footer';
 import Contact from './pages/contact/Contact';
 import Pines from './pages/pines/Pines';
 import Medallas from './pages/medallas/Medallas';
@@ -16,6 +17,7 @@ function App() {
     return (
       <BrowserRouter>
       <Routes> 
+      
         <Route path="/" element={<Home />} />
         <Route path="/placas" component={<Placas />} />
         <Route path="/insignias-militares" component={<InsigniasMilitares />} />
@@ -24,6 +26,7 @@ function App() {
         <Route path="/pines" component={<Pines />} />
         <Route path="/contactos" component={<Contact />} />
         <Route component={<NotFound />} />
+      
       </Routes>
       </BrowserRouter>
   );

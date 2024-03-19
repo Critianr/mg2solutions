@@ -1,5 +1,5 @@
 
-import maslcaro from '../assets/maslcaro-removebg-preview.png'
+import imageslogo from '../assets/Image.svg'
 import Intam from '../assets/instam-icons.svg'; 
 import Fb from '../assets/fb-icons.svg'; 
 import Whatp from '../assets/whatsapp-icons.svg'; 
@@ -9,12 +9,16 @@ function Footer(){
  <footer>  
   <div className='grid-container'>
     <div>
-    <img src={maslcaro} alt="" />
+    <img src={imageslogo} alt="" />
     </div>
   <div className="footer-contacto">
     
-    <p>Cra. 110 Bis #64d-64, Bogotá</p>
-    <p>Correo: comercial@2mgsolutions.com</p>
+    <p>Cra. 110 Bis #64d-64, Engativa, Bogotá <br />
+      Correo: comercial@2mgsolutions.com <br />
+      Telefono: 3214298999
+    </p>
+    {/* <p>Correo: comercial@2mgsolutions.com</p>
+    <p>Telefono: 3214298999</p> */}
       <div className='follows'>
         <img className='svg-follows' src={Intam} alt="" />
         <img className='svg-follows' src={Fb} alt="" />

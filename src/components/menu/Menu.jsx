@@ -33,11 +33,11 @@ function MenuButton() {
        </div>
     <ul className='nav-menu'>
     <li><a href="#">Inicio</a></li>
-    <li><a href="#">Acerca   de</a></li>
-    <li><a href="#">Contacto</a></li>
-    <li><a href="#">Servicios</a></li>
-    <li><a href="#">Galería</a></li>
-    <li><a href="#">Blog</a></li>
+    <li><a href="#">Insignias Militares</a></li>
+    <li><a href="#">Joyeria</a></li>
+    <li><a href="#">Medallas</a></li>
+    <li><a href="#">Pines</a></li>
+    <li><a href="#">Contactanos</a></li>
   </ul>
 
      </Offcanvas.Body>
