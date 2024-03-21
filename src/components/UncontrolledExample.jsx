@@ -4,8 +4,8 @@ import images from '../assets/notimg.jpeg';
 function UncontrolledExample() {
   
   return (
-    <div>
-    <Carousel>
+    
+    <Carousel className='mod-carosel'>
       <Carousel.Item>
         <img src={images} text="First slide" />
         <Carousel.Caption>
@@ -30,7 +30,7 @@ function UncontrolledExample() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    </div>
+    
   );
 }
 

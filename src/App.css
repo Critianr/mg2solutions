@@ -5,12 +5,10 @@ body, #root {
 }
 #root {
   max-width: 100%;
-
-
   margin: 0 auto;
   /* padding: 2rem; */
-
 }
+
 .offer{
   background-color: #761113;
   color: #FDDFBA;
@@ -62,11 +60,26 @@ body, #root {
 h2{
   text-align: center;
 }
-.gallery img{
-  width: 100%;
-  /* max-width: 100%; Asegura que las imágenes no se desborden del contenedor */
-  /* height: auto; Mantiene la proporción de aspecto de las imágenes */
+.gallery {
+  
 }
+.gallery img{ 
+  width: 100%;
+  height: auto;
+}
+/* .gallery{
+  margin-left: 30%; /* Ajusta el margen izquierdo del contenido principal para evitar superposiciones */
+/* }
+.gallery img{
+  margin-left: 30%; /* Ajusta el margen izquierdo del contenido principal para evitar superposiciones */
+  /* max-width: 100%; /*Asegura que las imágenes no se desborden del contenedor */
+  /* height: auto; Mantiene la proporción de aspecto de las imágenes */
+/* }
+.mod-carosel{
+  max-width: 100%; 
+  margin-left: 30%; Ajusta el margen izquierdo del contenido principal para evitar superposiciones */
+
+
 .description{
   font-size: 12px;
   text-align: center;
@@ -179,6 +192,72 @@ footer .footer-contacto .follows > img{
 
 }
 
+.desktop-nav {
+  display: none; 
+   /* Por defecto, oculta el componente de navegación  */
+}
+
+@media (min-width: 1024px) {
+  .desktop-nav {
+    display: block; /* Muestra el componente de navegación en pantallas de escritorio */
+    width: 30%; /* Establece el ancho del componente de navegación al 30% del ancho de la pantalla */
+    height: 100vh; /* Establece la altura del componente al 100% de la altura de la pantalla */
+    /* background-color: #333; Solo para propósitos de demostración */
+    color: white; /* Solo para propósitos de demostración */
+    position: absolute; /* Fija el componente en su posición para que no se desplace con el contenido */
+    top: 0; /* Fija la posición del componente en la parte superior de la pantalla */
+    left: 0; /* Fija la posición del componente en el lado izquierdo de la pantalla */
+    padding: 20px; /* Añade un relleno interior al componente */
+  }
+  .gallery {
+    margin-left: 30%; /* Ajusta el margen izquierdo del contenido principal para evitar superposiciones */
+  }
+  .nav{
+    display: block;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; /* Color de fondo del menú */
+    padding: 20px; /* Espacio interno del menú */
+    box-sizing: border-box; /* Incluir el padding en el ancho y alto del elemento */
+    z-index: 1000; /* Asegúrate de que el menú esté en la parte superior */
+    overflow-y: auto; /* Agrega scroll si el contenido excede el tamaño del menú */
+  }
+  .nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li {
+    /* background-color: #f0f0f0; Color de fondo de los elementos de la lista */
+    /* list-style: none; */
+    display: block;
+    padding: 10px 15px; /* Espacio de relleno (arriba/abajo izquierda/derecha) */
+    text-decoration: none;
+    color: #333; /* Color del texto */
+  }
+  
+  .nav li a {
+    display: block;
+    padding: 10px 15px; /* Espacio de relleno (arriba/abajo izquierda/derecha) */
+    text-decoration: none;
+    color: #333; /* Color del texto */
+  }
+  
+  .nav li:hover {
+    background-color: #ccc; /* Cambio de color de fondo en hover */
+  }
+  
+  .nav li a:hover {
+    color: #fff; /* Cambio de color de texto en hover */
+  }
+}
+/* Ajusta el ancho del contenido principal para que no se superponga con el componente de navegación */
 
 /* menu */
 /* Menu.css */

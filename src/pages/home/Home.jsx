@@ -2,16 +2,23 @@ import {Header} from '../../components/Header';
 import { Footer } from '../../components/Footer';
 import foundimg from '../../assets/notimg.png'
 import UncontrolledExample from '../../components/UncontrolledExample';
-
+import { DesktopNavigation } from '../../components/DesktopNavigation';
 function Home(){
 
     return(
+      
         <>
+        
+        <div className='wrp'>
+        <DesktopNavigation />
+        <div className='gallery'>
         <Header />
-      {/* banner */}
-      <div className='gallery'>
+
+        
+        
+      
       <UncontrolledExample />
-      </div>
+      
       <div className='description'>
       <p> We design durable travel apparelasd th a conscience — 100% made in America. dasroducts 
         by United By Blue. Video by Seth Morrisey.
@@ -58,9 +65,14 @@ function Home(){
       
       </div>
     </div>
+    
+    
     {/*  */}
     <Footer />
-
+    </div>
+    </div>  
+    
+    
         </>
     );
 }
