@@ -191,7 +191,9 @@ footer .footer-contacto .follows > img{
   padding: 5px; */
 
 }
-
+.copyright p{
+  text-align: center;
+}
 .desktop-nav {
   display: none; 
    /* Por defecto, oculta el componente de navegación  */
@@ -211,8 +213,15 @@ footer .footer-contacto .follows > img{
     height: 100%;
     
   }
-  .gallery {
+  .gallery{
     margin-left: 30%; /* Ajusta el margen izquierdo del contenido principal para evitar superposiciones */
+  }
+  .gallery-page {
+    margin-left: 30%; /* Ajusta el margen izquierdo del contenido principal para evitar superposiciones */
+  }
+  .gallery-page img{
+    max-width: 500px; 
+    
   }
   .nav{
     display: block;
@@ -251,47 +260,22 @@ footer .footer-contacto .follows > img{
   }
   
   .nav li:hover {
-    background-color: #ccc; /* Cambio de color de fondo en hover */
+    background-color: #761113; /* Cambio de color de fondo en hover */
   }
   
   .nav li a:hover {
     color: #fff; /* Cambio de color de texto en hover */
   }
 }
-/* Ajusta el ancho del contenido principal para que no se superponga con el componente de navegación */
 
-/* menu */
-/* Menu.css */
-/* .Menu {
-  position: relative;
+.gallery-page{
+  max-width: 100%;
 }
 
-.menu-icon {
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
+.wrp-pages h2{
+  padding: 20px 0 0 0;
 }
-.menu-items {
-  display: none;
-  position: absolute;
-  top: 40px;
-  left: 0;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 10px;
+.wrp-pages p{
+  text-align: justify;
+  padding: 10px 10px;
 }
-
-.menu-items.open {
-  display: block;
-}
-
-.menu-items a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: #333;
-}
-
-.menu-items a:hover {
-  background-color: #f4f4f4;
-} */

@@ -1,5 +1,4 @@
 // MenuButton.js
-import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import React, { useState } from 'react';
 import './menu.css';

@@ -20,7 +20,7 @@ function App() {
       
         <Route path="/" element={<Home />} />
         <Route path="/placas" component={<Placas />} />
-        <Route path="/insignias-militares" component={<InsigniasMilitares />} />
+        <Route path="/insignias-militares" element={<InsigniasMilitares />} />
         <Route path="/joyeria" component={<Joyeria />} />
         <Route path="/medallas" component={<Medallas />} />
         <Route path="/pines" component={<Pines />} />
