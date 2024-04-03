@@ -2,7 +2,7 @@ import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import { DesktopNavigation } from "../../components/DesktopNavigation";
 import { ProductCard } from "../../components/cardproducto/ProductCard";
-import data from '../../pages/home/data.json';
+import data from '../../pages/home/datacopy.json';
 function InsigniasMilitares() {
   
     return (
