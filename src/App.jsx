@@ -10,6 +10,7 @@ import {NotFound} from './pages/NotFound';
 import {Servicios3D} from './pages/servicios3d/Servicios3D';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css'
+import { Empresarial } from './pages/empresarial/Empresarial';
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
       
         <Route path="/" element={<Home />} />
         <Route path="/placas" element={<Placas />} />
+        <Route path="/empresarial" element={<Empresarial />} />
         <Route path="/insignias-militares" element={<InsigniasMilitares />} />
         <Route path="/joyeria" element={<Joyeria />} />
         <Route path="/medallas" element={<Medallas />} />

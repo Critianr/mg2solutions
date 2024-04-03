@@ -92,6 +92,7 @@ h2{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
+  grid-template-rows: auto auto auto auto; /* Ajusta el número de filas y su altura */
 }
 
 .item {
@@ -100,6 +101,10 @@ h2{
   align-items: center;
   justify-content: center;
   border: 1px solid #ddd;
+}
+.item img{
+  max-width: 300px;
+  max-height: 250px;
 }
 .image-link {
   position: relative; /* Asegura que los elementos secundarios estén posicionados relativamente a este enlace */
@@ -115,11 +120,10 @@ h2{
   padding: 10px; /* Añade relleno alrededor del texto */
   margin: 0; /* Elimina el margen */
 }
-.item img {
-  max-width: 100%;
-  height: auto;
-}
 
+.item:nth-child(6) {
+  grid-column: span 2; /* Esto hace que ocupe dos columnas */
+}
 .full-width {
   grid-column: span 2;
 }

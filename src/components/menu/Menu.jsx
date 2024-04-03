@@ -2,7 +2,7 @@
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import React, { useState } from 'react';
 import './menu.css';
-
+import { Link } from 'react-router-dom';
 function MenuButton() {
     // OffCanvasExample
   const [show, setShow] = useState(false);
@@ -31,12 +31,14 @@ function MenuButton() {
         Chequea todos nuestros productos
        </div>
     <ul className='nav-menu'>
-    <li><a href="#">Inicio</a></li>
-    <li><a href="#">Insignias Militares</a></li>
-    <li><a href="#">Joyeria</a></li>
-    <li><a href="#">Medallas</a></li>
-    <li><a href="#">Pines</a></li>
-    <li><a href="#">Contactanos</a></li>
+    <li><Link to="/">Inicio</Link></li>
+    <li><Link to="/insignias-militares">Insignias Militares</Link></li>
+    <li><Link to="/empresarial">Empresarial</Link></li>
+    <li><Link to="/joyeria">Joyeria</Link></li>
+    <li><Link to="/medallas">Medallas</Link></li>
+    <li><Link to="/pines">Pines</Link></li>
+    <li><Link to="/servicios-digitales">Servicios Digitales</Link></li>
+    <li><Link to="/contactos">Contactanos</Link></li>
   </ul>
 
      </Offcanvas.Body>

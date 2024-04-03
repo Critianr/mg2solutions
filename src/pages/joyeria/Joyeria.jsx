@@ -10,11 +10,11 @@ function Joyeria() {
         <DesktopNavigation />
           <div className="gallery-page">
           <Header />
-          <h2>INSIGNIAS MILITARES</h2>
+          <h2>Joyeria</h2>
           <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
            <div className="wrp-product"> 
-          {data.insigniasmilitares.map(product => (
+          {data.joyeria.map(product => (
           
           <ProductCard 
                 key={product.id}

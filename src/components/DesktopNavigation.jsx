@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assets/logo.png';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { Home } from '../pages/home/Home';
+import { Link } from 'react-router-dom';
+
 function DesktopNavigation() {
   return (
     <nav className="desktop-nav">
@@ -9,6 +9,7 @@ function DesktopNavigation() {
     <ul className='nav'>
     <li><Link to="/">Inicio</Link></li>
     <li><Link to="/insignias-militares">Insignias Militares</Link></li>
+    <li><Link to="/empresarial">Empresarial</Link></li>
     <li><Link to="/joyeria">Joyeria</Link></li>
     <li><Link to="/medallas">Medallas</Link></li>
     <li><Link to="/pines">Pines</Link></li>
