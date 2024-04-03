@@ -21,4 +21,4 @@ function Joyeria() {
     );
   }
   
-  export default Joyeria;
+  export {Joyeria};

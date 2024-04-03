@@ -21,4 +21,4 @@ function Placas() {
     );
   }
   
-  export default Placas;
+  export {Placas};

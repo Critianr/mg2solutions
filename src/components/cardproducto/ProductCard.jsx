@@ -3,7 +3,8 @@ import Logo from '../../assets/hdlogo.png';
 import './ProductCard.css';
 
 
-function ProductCard({ title, imageUrl }) {
+
+function ProductCard({ title, img, detailsProduct,description  }) {
   const [showModal, setShowModal] = useState(false);
 
   const handleClose = () => setShowModal(false);
@@ -12,16 +13,16 @@ function ProductCard({ title, imageUrl }) {
   return (
     <>
       <div onClick={handleShow} className={`product-card ${showModal ? 'open' : ''}`}>
-        <img src={Logo} alt="" />     
+        <img src={img} alt="" />     
         <h4>Title</h4>
       </div>
       <div className={`modal ${showModal ? 'open' : ''}`}>
         <div>
           <button onClick={handleClose}> x</button>
-          <img src={Logo} alt={title} />
+          <img src={img} alt={title} />
+          <h2>{description}</h2>
           <p>
-            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+          {detailsProduct}
           </p>
           <div className="modal-buttons">
               <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" className="whatsapp-button">WhatsApp</a>

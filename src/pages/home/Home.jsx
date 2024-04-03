@@ -1,6 +1,7 @@
 import {Header} from '../../components/Header';
 import { Footer } from '../../components/Footer';
-import foundimg from '../../assets/notimg.png'
+import foundimg from '../../assets/notimg.png';
+
 import UncontrolledExample from '../../components/UncontrolledExample';
 import { DesktopNavigation } from '../../components/DesktopNavigation';
 function Home(){

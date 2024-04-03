@@ -21,4 +21,4 @@ function Medallas() {
     );
   }
   
-  export default Medallas;
+  export {Medallas};

@@ -22,4 +22,4 @@ function Pines() {
     );
   }
   
-  export default Pines;
+  export {Pines};

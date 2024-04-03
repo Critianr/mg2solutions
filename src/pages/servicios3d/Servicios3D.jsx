@@ -11,7 +11,7 @@ function Servicios3D(){
         <DesktopNavigation />
           <div className="gallery-page">
           <Header />
-          <h2>PINES</h2>
+          <h2>SERVICIOS DE 3D Y IMPRESORAS</h2>
           <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
           <ProductCard />
