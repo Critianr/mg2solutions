@@ -1,6 +1,4 @@
 import React from 'react';
-import {Header} from './components/Header';
-import { Footer } from './components/Footer';
 import {Contact} from './pages/contact/Contact';
 import {Pines} from './pages/pines/Pines';
 import {Medallas} from './pages/medallas/Medallas';
@@ -9,6 +7,7 @@ import {InsigniasMilitares} from './pages/InsigniasMilitares/InsigniasMilitares'
 import {Placas} from './pages/placas/Placas';
 import {Home} from './pages/home/Home';
 import {NotFound} from './pages/NotFound';
+import {Servicios3D} from './pages/servicios3d/Servicios3D';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css'
 
@@ -24,6 +23,7 @@ function App() {
         <Route path="/joyeria" element={<Joyeria />} />
         <Route path="/medallas" element={<Medallas />} />
         <Route path="/pines" element={<Pines />} />
+        <Route path="/servicios-digitales" element={<Servicios3D />} />
         <Route path="/contactos" element={<Contact />} />
         <Route component={<NotFound />} />
       

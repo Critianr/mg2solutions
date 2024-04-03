@@ -12,11 +12,12 @@ function InsigniasMilitares() {
         <DesktopNavigation />
           <div className="gallery-page">
           <Header />
-          <h2>INSIGNIAS MILITARES</h2>
+          <h2>EMPRESARIAL</h2>
           <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
-           {data.insigniasmilitares.map(product => (
-            <div> 
+           <div className="wrp-product"> 
+          {data.insigniasmilitares.map(product => (
+          
           <ProductCard 
                 key={product.id}
                 title={product.title}
@@ -24,8 +25,9 @@ function InsigniasMilitares() {
                 detailsProduct={product.detailproduct} // Ajusta la key según tu estructura JSON
                 description={product.description}
           />
-          </div>
+          
           ))}
+          </div>
           <Footer />
           </div>
         </div>

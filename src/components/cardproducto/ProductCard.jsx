@@ -4,7 +4,7 @@ import './ProductCard.css';
 
 
 
-function ProductCard({ title, img, detailsProduct,description  }) {
+function ProductCard({ title, img, detailsProduct, description  }) {
   const [showModal, setShowModal] = useState(false);
 
   const handleClose = () => setShowModal(false);

@@ -18,6 +18,25 @@
       "description": "George Orwell",
       "detailproduct": "text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an",
       "img": "../src/assets/photeproduct/empresarial/gafete.jpeg"
+    },
+    {
+      "id": 1,
+      "title": "El Hobbit",
+      "description": "J.R.R. Tolkien",
+      "detailproduct": "text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an",
+      "img": "../src/assets/photeproduct/empresarial/gafete.jpeg"    },
+    {
+      "id": 2,
+      "title": "Cien años de soledad",
+      "description": "Gabriel García Márquez",
+      "detailproduct": "text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an",
+      "img": "../src/assets/photeproduct/empresarial/gafete.jpeg"    },
+    {
+      "id": 3,
+      "title": "1984",
+      "description": "George Orwell",
+      "detailproduct": "text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an",
+      "img": "../src/assets/photeproduct/empresarial/gafete.jpeg"
     }
   ],
   "Pines": [

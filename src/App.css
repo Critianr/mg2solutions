@@ -266,6 +266,12 @@ footer .footer-contacto .follows > img{
   .nav li a:hover {
     color: #fff; /* Cambio de color de texto en hover */
   }
+  /* wrp-product contenedor de productos */
+  .wrp-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+  }
 }
 
 .gallery-page{
@@ -278,4 +284,13 @@ footer .footer-contacto .follows > img{
 .wrp-pages p{
   text-align: justify;
   padding: 10px 10px;
+}
+@media (max-width: 1023px) {
+.wrp-product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  max-width: 100%;
+}
 }
