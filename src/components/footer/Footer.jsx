@@ -1,8 +1,9 @@
 
-import imageslogo from '../assets/Image.svg'
-import Intam from '../assets/instam-icons.svg'; 
-import Fb from '../assets/fb-icons.svg'; 
-import Whatp from '../assets/whatsapp-icons.svg'; 
+import imageslogo from '../../assets/Image.svg'
+import Intam from '../../assets/instam-icons.svg'; 
+import Fb from '../../assets/fb-icons.svg'; 
+import Whatp from '../../assets/whatsapp-icons.svg'; 
+import './footer.css'; 
 function Footer(){
     return(
         <>
@@ -32,6 +33,7 @@ function Footer(){
      </p>
       </div>
   </div>
+  <div><p>Gracias por apoyar la industria colombiana</p></div>
 </footer>
         </>
     )

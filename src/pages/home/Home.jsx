@@ -1,12 +1,12 @@
-import {Header} from '../../components/Header';
-import { Footer } from '../../components/Footer';
-import foundimg from '../../assets/notimg.png';
-import Pines from '../../assets/Pinesporvenircamisetanegra.jpg';
-import Joyeria from '../../assets/anillo2.jpg';
-import InsigniasMilitaress from '../../assets/10.jpg';
-import Medallas from '../../assets/1.jpg';
-import Empresarial from '../../assets/tarjetasmetalicas.jpg'
-import ServiDigaimge from '../../assets/Estatuillas.jpg';
+import {Header} from '../../components/header/Header';
+import { Footer } from '../../components/footer/Footer';
+
+import Pines from '../../assets/img-home/Pinespersonalizadosqueen.jpg';
+import Joyeria from '../../assets/img-home/anillos1.jpg';
+import InsigniasMilitaress from '../../assets/img-home/47.jpg';
+import Medallas from '../../assets/notimg.png';
+import Empresarial from '../../assets/img-home/fichero2.jpg'
+import ServiDigaimge from '../../assets/img-home/Estatuillas 1.jpg';
 import UncontrolledExample from '../../components/UncontrolledExample';
 import { DesktopNavigation } from '../../components/DesktopNavigation';
 import { Link } from 'react-router-dom';
@@ -17,9 +17,11 @@ function Home(){
         <>
         
         <div className='wrp'>
+        
         <DesktopNavigation />
-        <div className='gallery'>
         <Header />
+        <div className='gallery'>
+        
 
       <UncontrolledExample />
       
@@ -66,7 +68,7 @@ function Home(){
       <p className="image-title">Pines</p>
       </Link>
       </div>
-      <div className="item">
+      <div className="item full-width">
       <Link to="/servicios-digitales" className="image-link">
       <img className="img-home" src={ServiDigaimge} alt="Imagen 5" />
       <p className="image-title">Servicios Digitales</p>

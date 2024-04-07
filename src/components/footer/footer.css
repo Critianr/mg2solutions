@@ -1,0 +1,70 @@
+footer{
+    background-color: #761113;
+    color: #FDDFBA;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; /* Para apilar los elementos verticalmente en dispositivos móviles */
+    align-items: center; /* Para centrar los elementos horizontalmente */
+    /* aqui */
+      /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; */
+  }
+  footer .grid-container img{
+    width: 100%; /* Haz que las imágenes ocupen todo el ancho del contenedor */
+    max-width: 140px;
+    margin: 0%;
+    padding: 0% ;
+  }
+  
+  footer .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de tamaño igual */
+    grid-template-rows: auto auto; /* Dos filas de tamaño automático */
+    grid-gap: 5px;
+    margin: 15px;
+  }
+  /* footer .item1, */
+  footer .footer-contacto {
+    grid-column: span 1; /* Ocupa una columna */
+    text-align: center;
+  
+  }
+  
+  footer .copyright {
+    grid-column: span 2; /* Ocupa dos columnas */
+  }
+  footer .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+  
+  }
+  footer .footer-contacto{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+  
+  }
+  footer .footer-contacto p{
+    margin:0;
+    padding-top: 20px;
+  
+  }
+  footer .footer-contacto .follows > img{
+    width: 20px;
+    margin: 4px;
+  }
+  
+  .footer-contacto .follows{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px; */
+  
+  }
+  .copyright p{
+    text-align: center;
+  }

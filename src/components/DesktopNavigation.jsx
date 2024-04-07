@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from '../assets/logo.png';
+import logo from '../assets/logocirc.png';
 import { Link } from 'react-router-dom';
 
 function DesktopNavigation() {
   return (
     <nav className="desktop-nav">
    <img src={logo} alt="" />
-    <ul className='nav'>
+    <ul className='nav-link'>
     <li><Link to="/">Inicio</Link></li>
     <li><Link to="/insignias-militares">Insignias Militares</Link></li>
     <li><Link to="/empresarial">Empresarial</Link></li>
