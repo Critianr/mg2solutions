@@ -37,43 +37,75 @@ function Home(){
       
       <div className="item">
       <Link to="/insignias-militares" className="image-link">
+      <div className="item-content">
       <img className="img-home" src={InsigniasMilitaress} alt="Imagen 1" />
-      <p className="image-title">Insignias Militares</p>
+      <div className="text-content">
+          <h3 className='item-title'>Insignias Militares</h3>
+          {/* <p>Descripción corta del servicio digital</p> */}
+        </div>
+        </div>
       </Link>  
       </div>
       <div className="item">
       <Link to="/empresarial" className="image-link">
+      <div className="item-content">
         <img className="img-home" src={Empresarial} alt="Imagen 2" />
-        <p className="image-title">Empresarial</p>
+        <div className="text-content">
+          <h3 className='item-title'>Empresarial</h3>
+          {/* <p>Descripción corta del servicio digital</p> */}
+        </div>
+        </div>
       </Link>
     </div>  
 
-      <div className="item full-width">
+      <div className="item">
       <Link to="/joyeria" className="image-link">
+      <div className="item-content">
       <img className="img-home" src={Joyeria} alt="Imagen 3" />
-      <p className="image-title">Joyeria</p>
+      <div className="text-content">
+          <h3 className='item-title'>Joyeria</h3>
+          {/* <p>Descripción corta del servicio digital</p> */}
+        </div>
+        </div>
       </Link>
       </div>
 
       <div className="item">
       <Link to="/medallas" className="image-link">
+      <div className="item-content">
       <img className="img-home" src={Medallas} alt="Imagen 4" />
-      <p className="image-title">Medallas</p>
+      <div className="text-content">
+          <h3 className='item-title'>Medallas</h3>
+          {/* <p>Descripción corta del servicio digital</p> */}
+        </div>
+        </div>
       </Link>
       </div>
 
-      <div className="item">
+      <div className="item full-width">
       <Link to="/pines" className="image-link">
+      <div className="item-content">
       <img className="img-home" src={Pines} alt="Imagen 5" />
-      <p className="image-title">Pines</p>
+      <div className="textfull-width">
+          <h3 className='item-title'>Pines</h3>
+          <p>Descripción corta del servicio digital</p>
+        </div>
+        </div>
+        
       </Link>
       </div>
       <div className="item full-width">
       <Link to="/servicios-digitales" className="image-link">
-      <img className="img-home" src={ServiDigaimge} alt="Imagen 5" />
-      <p className="image-title">Servicios Digitales</p>
-      </Link>
-      </div>
+      <div className="item-content">
+        <img className="img-home" src={ServiDigaimge} alt="Imagen 5" />
+        
+        <div className="textfull-width">
+          <h3 className='item-title'>Servicios Digitales</h3>
+          <p>Descripción corta del servicio digital</p>
+        </div>
+       </div>
+       </Link>
+       </div>
       
       </div>
     </div>
