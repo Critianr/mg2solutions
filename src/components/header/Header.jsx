@@ -9,8 +9,9 @@ import './header.css';
 function Header() {
   return (
     <>
+    
     <header>
-     <div className='offer'>Si te gusta lo mejor, ¡nosotros lo fabricamos! </div>
+    <div className='offer'>Si te gusta lo mejor, ¡nosotros lo fabricamos! </div> 
      <div className='wrp-header'>
         <div className='wrp-logo'>
         <img className="logo-init" src={hdlogo} alt="Mi Imagen" />

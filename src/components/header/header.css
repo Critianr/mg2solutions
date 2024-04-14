@@ -1,14 +1,17 @@
 .offer{
+    top: 0%;
+    display: block;
     background-color: #761113;
     color: #FDDFBA;
     text-align: center;
+    z-index: 1000;
   }
   header{
     width: 100%;
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 0px;
+    /* top: 25px; */
     z-index: 1000;
     background-color: white;
   }
@@ -17,9 +20,16 @@
     display: flex;
     align-content: center;
     align-items: center;
+    justify-content: space-around ;
+    /* position: fixed;
     flex-direction: row;
-    
+    top: 0px;
     z-index: 1000;
+    background-color: white;  */
+
+
+    background-color: white;
+    
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     
   
@@ -76,15 +86,18 @@
       background-color:#761113 ;
       color: white;
       text-align: center;
+      margin-left: 30%;
+     
     }
     header{
     width: 100%;
-    display: flex;
+    display: block;
     flex-direction: column;
-    position: fixed;
-    
+    /* position: fixed; */
+    position: absolute;
     color: black;
-    z-index: 1000; 
+    z-index: 1;
+     
     }
     .wrp-header{
       max-width: 100%;
@@ -94,6 +107,7 @@
       margin-left: 30%;
       padding: 10px;
       box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+      /* z-index: 1;  */
      }
      .wrp-header .wrp-title .title{
       color: #761113;

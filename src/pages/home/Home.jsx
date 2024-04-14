@@ -82,32 +82,37 @@ function Home(){
       </Link>
       </div>
 
-      <div className="item full-width">
+  
+      
+      </div>
+      {/* fullitems */}
+      <div className='full-item'>
+      <div className="full-width">
       <Link to="/pines" className="image-link">
       <div className="item-content">
-      <img className="img-home" src={Pines} alt="Imagen 5" />
+      <img className="img-homefull" src={Pines} alt="Imagen 5" />
       <div className="textfull-width">
           <h3 className='item-title'>Pines</h3>
-          <p>Descripción corta del servicio digital</p>
+          <p>Perzonalizaciones</p>
         </div>
         </div>
-        
       </Link>
       </div>
-      <div className="item full-width">
+
+      <div className="full-width">
       <Link to="/servicios-digitales" className="image-link">
       <div className="item-content">
-        <img className="img-home" src={ServiDigaimge} alt="Imagen 5" />
-        
+        <img className="img-homefull" src={ServiDigaimge} alt="Imagen 5" />
         <div className="textfull-width">
           <h3 className='item-title'>Servicios Digitales</h3>
-          <p>Descripción corta del servicio digital</p>
+          <p>Servicios que solucionan</p>
         </div>
        </div>
        </Link>
        </div>
-      
-      </div>
+
+       </div>
+       {/* full items */}
     </div>
     
     
