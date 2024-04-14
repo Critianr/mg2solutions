@@ -221,10 +221,11 @@ a{
   }
 
 }
+
 /* inicio carousel modal  */
 .mod-carosel .carousel-image{
   width: 100%; /* Adjust the width as needed */
-  height: 400px; /* Adjust the height as needed */
+  height: 300px; /* Adjust the height as needed */
 
 }
 .carousel-image {
@@ -330,7 +331,7 @@ a{
 /* DIEÑO DE LAS PAGINAS */
 .gallery-page{
   max-width: 100%;
-  /* top: 120px; */
+  padding-top: 120px;
 }
 
 .wrp-pages h2{
