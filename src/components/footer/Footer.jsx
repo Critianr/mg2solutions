@@ -1,5 +1,5 @@
 
-import imageslogo from '../../assets/Image.svg'
+import imageslogo from '../../assets/logofooter.svg'
 import Intam from '../../assets/instam-icons.svg'; 
 import Fb from '../../assets/fb-icons.svg'; 
 import Whatp from '../../assets/whatsapp-icons.svg'; 
@@ -9,8 +9,8 @@ function Footer(){
         <>
  <footer>  
   <div className='grid-container'>
-    <div>
-    <img src={imageslogo} alt="" />
+    <div className='container-logo'>
+    <img className="logo-footer" src={imageslogo} alt="" />
     </div>
   <div className="footer-contacto">
     

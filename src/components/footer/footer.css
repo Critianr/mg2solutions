@@ -10,9 +10,18 @@ footer{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px; */
   }
-  footer .grid-container img{
+  .grid-container .container-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    
+
+  }
+  footer .grid-container .logo-footer{
     width: 100%; /* Haz que las imágenes ocupen todo el ancho del contenedor */
-    max-width: 140px;
+    max-width: 80px;
     margin: 0%;
     padding: 0% ;
   }
@@ -26,8 +35,9 @@ footer{
   }
   /* footer .item1, */
   footer .footer-contacto {
-    grid-column: span 1; /* Ocupa una columna */
+    /* grid-column: span 1; */
     text-align: center;
+    
   
   }
   
@@ -53,7 +63,7 @@ footer{
     padding-top: 20px;
   
   }
-  footer .footer-contacto .follows > img{
+  footer .footer-contacto .follows img{
     width: 20px;
     margin: 4px;
   }
@@ -67,4 +77,27 @@ footer{
   }
   .copyright p{
     text-align: center;
+  }
+  @media (min-width: 1024px) {
+    footer .footer-contacto {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      padding: 20px;
+    }
+    .grid-container .container-logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      align-content: center;
+      
+
+    }
+    .grid-container p{
+      font-size: 15px;
+    }
+    .grid-container .logo-footer {
+      width: 80px;
+    }
   }

@@ -147,7 +147,7 @@ padding: 0;
   left: 50%; /* Centra horizontalmente */
   transform: translateX(-50%); /* Centra horizontalmente */
   text-align: center; /* Alinea el texto al centro */
-  color: white !important; /* Color del texto */
+  color: #E6C281;; /* Color del texto */
   /* display: flex;
   flex-direction: column;
   text-align: center; */
