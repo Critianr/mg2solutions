@@ -1,3 +1,6 @@
+html{
+  font-size: 16px;
+}
 body, #root {
   margin: 0;
   padding: 0;
@@ -176,7 +179,7 @@ a{
 /* Dektop inicio */
 @media(min-width:1024px){
   .gallery{
-    margin-left: 30%; /* Ajusta el margen izquierdo del contenido principal para evitar superposiciones */
+    margin-left: 25%; /* Ajusta el margen izquierdo del contenido principal para evitar superposiciones */
     /* padding-top: 120px !important; */
     box-sizing: content-box;
   }
@@ -255,70 +258,180 @@ a{
 
 @media (min-width: 1024px) {
   .desktop-nav {
-    /* top:24px; */
     margin: 0%;
     padding: 0%;
     display: flex;
-    /* justify-content: center; */
     align-self: center;
     flex-direction: column;
     position: fixed;
-    width: 30%; /* Establece el ancho del componente de navegación al 30% del ancho de la pantalla */
-    background-color: #B67250;
+    width: 25%; /* Establece el ancho del componente de navegación al 30% del ancho de la pantalla */
+    background-color: #E6C281;
     color: white; /* Solo para propósitos de demostración */
     overflow-x: scroll;
     max-height: 100%;
     z-index: 1000;
-
-
   }
   .desktop-nav img{
-
     width: 300px;
     height:250px;
-
-
   }
-
-
-
   .nav-link{
-
     flex-direction: column;
-
-
-
     max-height: 100%;
-    background-color: #B67250;
-
-
-
-    /* background-color: #FDDFBA;  */
-     /* padding: 20px;  */
-
-
+    background-color: #E6C281;
   }
-
   .nav-link li {
-    /* background-color: #f0f0f0; Color de fondo de los elementos de la lista */
-    /* list-style: none; */
     display: block;
     padding: 10px 15px; /* Espacio de relleno (arriba/abajo izquierda/derecha) */
     text-decoration: none;
     color: #333; /* Color del texto */
   }
-
   .nav-link li a {
     display: block;
     padding: 10px 15px; /* Espacio de relleno (arriba/abajo izquierda/derecha) */
     text-decoration: none;
     color: #333; /* Color del texto */
   }
-
   .nav-link li:hover {
     background-color: #761113; /* Cambio de color de fondo en hover */
   }
+  .nav-link li a:hover {
+    color: #fff; /* Cambio de color de texto en hover */
+  }
 
+}
+@media (min-width: 1280px) {
+  .desktop-nav {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    position: fixed;
+    width: 25%; /* Establece el ancho del componente de navegación al 30% del ancho de la pantalla */
+    background-color: #E6C281;
+    color: white; /* Solo para propósitos de demostración */
+    overflow-x: scroll;
+    max-height: 100%;
+    z-index: 1000;
+  }
+  .desktop-nav img{
+    width: 300px;
+    height:250px;
+  }
+  .nav-link{
+    flex-direction: column;
+    max-height: 100%;
+    background-color: #E6C281;
+  }
+  .nav-link li {
+    display: block;
+    padding: 10px 15px; /* Espacio de relleno (arriba/abajo izquierda/derecha) */
+    text-decoration: none;
+    color: #333; /* Color del texto */
+  }
+  .nav-link li a {
+    display: block;
+    padding: 10px 15px; /* Espacio de relleno (arriba/abajo izquierda/derecha) */
+    text-decoration: none;
+    color: #333; /* Color del texto */
+  }
+  .nav-link li:hover {
+    background-color: #761113; /* Cambio de color de fondo en hover */
+  }
+  .nav-link li a:hover {
+    color: #fff; /* Cambio de color de texto en hover */
+  }
+
+}
+
+@media (min-width: 1600px) {
+  .desktop-nav {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    position: fixed;
+    width: 25%; /* Establece el ancho del componente de navegación al 30% del ancho de la pantalla */
+    background-color: #E6C281;
+    color: white; /* Solo para propósitos de demostración */
+    overflow-x: scroll;
+    max-height: 100%;
+    z-index: 1000;
+  }
+  .desktop-nav img{
+    width: 300px;
+    height:250px;
+  }
+  .nav-link{
+    flex-direction: column;
+    max-height: 100%;
+    background-color: #E6C281;
+  }
+  .nav-link li {
+    display: block;
+    padding: 10px 15px; /* Espacio de relleno (arriba/abajo izquierda/derecha) */
+    text-decoration: none;
+    color: #333; /* Color del texto */
+  }
+  .nav-link li a {
+    display: block;
+    padding: 10px 15px; /* Espacio de relleno (arriba/abajo izquierda/derecha) */
+    text-decoration: none;
+    color: #333; /* Color del texto */
+  }
+  .nav-link li:hover {
+    background-color: #761113; /* Cambio de color de fondo en hover */
+  }
+  .nav-link li a:hover {
+    color: #fff; /* Cambio de color de texto en hover */
+  }
+
+}
+@media (min-width: 1920px) {
+  .desktop-nav {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    position: fixed;
+    width: 25%; /* Establece el ancho del componente de navegación al 30% del ancho de la pantalla */
+    background-color: #E6C281;
+    color: white; /* Solo para propósitos de demostración */
+    overflow-x: scroll;
+    max-height: 100%;
+    z-index: 1000;
+  }
+  .desktop-nav img{
+    width: 300px;
+    height:250px;
+  }
+  .nav-link{
+    flex-direction: column;
+    
+    background-color: #E6C281;
+  }
+  .nav-link li {
+    
+    display: block;
+    
+    padding: 25px 15px; /* Espacio de relleno (arriba/abajo izquierda/derecha) */
+    text-decoration: none;
+    color: #333; /* Color del texto */
+  }
+  .nav-link li a {
+    
+    max-height: 400px;
+    display: block;
+    padding: 10px 15px; /* Espacio de relleno (arriba/abajo izquierda/derecha) */
+    text-decoration: none;
+    color: #333; /* Color del texto */
+  }
+  .nav-link li:hover {
+    background-color: #761113; /* Cambio de color de fondo en hover */
+  }
   .nav-link li a:hover {
     color: #fff; /* Cambio de color de texto en hover */
   }

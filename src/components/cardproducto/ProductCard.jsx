@@ -25,7 +25,8 @@ function ProductCard({ title, img, detailsProduct, description  }) {
           {detailsProduct}
           </p>
           <div className="modal-buttons">
-              <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" className="whatsapp-button">WhatsApp</a>
+          <a href="https://api.whatsapp.com/send?phone=+573214298999&text=Me%20interesa%20este%20producto:%20PRODUCTO" target="_blank" rel="noopener noreferrer"></a>
+              {/* <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" className="whatsapp-button">WhatsApp</a> */}
               <a href="tel:+123456789" className="call-button">Llamar</a>
             </div>
         </div>
