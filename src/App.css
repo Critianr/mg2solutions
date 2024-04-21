@@ -49,6 +49,7 @@ h2{
   font-size: 10px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   overflow: hidden; /* Oculta el contenido que desborda del contenedor */
+  /* filter: brightness(70%); */
 }
 .item .item-content{
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); 
@@ -75,6 +76,7 @@ transition: filter 0.3s ease; /* Transición suave para el efecto degradado */
 height: auto; 
 padding: 0;
 
+filter: brightness(70%);
 }
 .item::before {
   /* content: ""; */
@@ -90,6 +92,11 @@ padding: 0;
 .item:hover .img-home{
   opacity: 1; /* Hace visible el degradado al pasar el mouse sobre el elemento */
   filter: brightness(70%);
+  
+}
+.item:hover .text-content{
+    color: white;
+  
 }
 .text-content{
   /* position: absolute;
@@ -105,7 +112,7 @@ padding: 0;
   left: 50%; /* Centra horizontalmente */
   transform: translateX(-50%); /* Centra horizontalmente */
   text-align: center; /* Alinea el texto al centro */
-  color: #E6C281;
+  color: black;
 }
 
 .full-width {
@@ -150,7 +157,7 @@ padding: 0;
   left: 50%; /* Centra horizontalmente */
   transform: translateX(-50%); /* Centra horizontalmente */
   text-align: center; /* Alinea el texto al centro */
-  color: #E6C281;; /* Color del texto */
+  color: white;
   /* display: flex;
   flex-direction: column;
   text-align: center; */
