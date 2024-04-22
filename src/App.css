@@ -473,7 +473,7 @@ a{
 }
 .gallery-page {
   /* display: flex;  */
-  margin-left: 30%; /* Ajusta el margen izquierdo del contenido principal para evitar superposiciones */
+  margin-left: 25%; /* Ajusta el margen izquierdo del contenido principal para evitar superposiciones */
   padding-top: 120px;
   
 

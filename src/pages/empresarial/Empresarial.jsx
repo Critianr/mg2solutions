@@ -2,8 +2,8 @@ import { Header } from "../../components/header/Header";
 import { Footer } from "../../components/footer/Footer";
 import { DesktopNavigation } from "../../components/DesktopNavigation";
 import { ProductCard } from "../../components/cardproducto/ProductCard";
-// import data from '../../pages/home/data.json';
-import data from '../../components/cardproducto/data.json';
+import data from '../../pages/home/data.json';
+
 function Empresarial(){
 
     return(
