@@ -8,32 +8,34 @@ function Footer(){
     return(
         <>
  <footer>  
-  <div className='grid-container'>
+  <div className='grid-footer'>
     <div className='container-logo'>
     <img className="logo-footer" src={imageslogo} alt="" />
     </div>
   <div className="footer-contacto">
     
-    <p>Cra. 110 Bis #64d-64, Engativa, Bogotá <br />
+    <p className='footer-text'>Cra. 110 Bis #64d-64, Engativa, Bogotá <br />
       Correo: comercial@2mgsolutions.com <br />
-      Telefono: 3214298999
+      <a href="tel:+573108839772">Telefono: +57 3108839772</a>
     </p>
     {/* <p>Correo: comercial@2mgsolutions.com</p>
     <p>Telefono: 3214298999</p> */}
       <div className='follows'>
-        <img className='svg-follows' src={Intam} alt="" />
-        <img className='svg-follows' src={Fb} alt="" />
-        <img className='svg-follows' src={Whatp} alt="" />
+        <a href="https://www.instagram.com/2mgsolutions/" target="_blank" rel="noopener noreferrer"><img className='svg-follows' src={Intam} alt="" /></a>
+        <a href="https://www.facebook.com/2MGSOLUTIONSSAS/" target="_blank" rel="noopener noreferrer"><img className='svg-follows' src={Fb} alt="" /></a>
+        <a href="https://api.whatsapp.com/send?phone=+573108839772&text=Bienvenido%20a%202MGDistintivos%20productos%20a%20tu%20medida!" target="_blank" rel="noopener noreferrer"><img className='svg-follows' src={Whatp} alt="" /></a>
       </div>
       
   </div>
   <div className='copyright'>
-     <p>
-      2MG Solutions © Todos los derechos reservados 2022
+     <p className='footer-text'>
+      2MG Distintivos © Todos los derechos reservados 2024
      </p>
       </div>
   </div>
-  <div><p>Gracias por apoyar la industria colombiana</p></div>
+  <div>
+    <p className='footer-text'>Gracias por apoyar la industria colombiana</p>
+    </div>
 </footer>
         </>
     )

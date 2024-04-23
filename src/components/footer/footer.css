@@ -1,83 +1,59 @@
+/* inicio vista Moble */
 footer{
     background-color: #761113;
     color: #FDDFBA;
     display: flex;
     justify-content: space-around;
-    flex-direction: column; /* Para apilar los elementos verticalmente en dispositivos móviles */
-    align-items: center; /* Para centrar los elementos horizontalmente */
-    /* aqui */
-      /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px; */
+    flex-direction: column;
+    /* align-items: center; */
   }
-  .grid-container .container-logo{
+  .grid-footer .container-logo{
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
     align-content: center;
-    
-
   }
-  footer .grid-container .logo-footer{
+  footer .grid-footer .logo-footer{
     width: 100%; /* Haz que las imágenes ocupen todo el ancho del contenedor */
     max-width: 80px;
     margin: 0%;
     padding: 0% ;
   }
-  
-  footer .grid-container {
+
+  footer .grid-footer {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Dos columnas de tamaño igual */
     grid-template-rows: auto auto; /* Dos filas de tamaño automático */
     grid-gap: 5px;
     margin: 15px;
   }
-  /* footer .item1, */
-  footer .footer-contacto {
-    /* grid-column: span 1; */
+footer .footer-contacto {
+    margin: 0px;
+    padding: 0px;
+    /* font-size: 12px; */
     text-align: center;
-    
-  
-  }
-  
-  footer .copyright {
+ }
+ footer .footer-contacto a {
+  color: white;
+ }
+footer .copyright {
     grid-column: span 2; /* Ocupa dos columnas */
-  }
-  footer .copyright {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 12px;
   
-  }
-  footer .footer-contacto{
-    margin: 0px;
-    padding: 0px;
-    font-size: 12px;
-  
-  }
-  footer .footer-contacto p{
-    margin:0;
-    padding-top: 20px;
-  
-  }
-  footer .footer-contacto .follows img{
+}
+footer .footer-contacto .svg-follows{
     width: 20px;
     margin: 4px;
-  }
-  
-  .footer-contacto .follows{
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px; */
-  
-  }
-  .copyright p{
-    text-align: center;
-  }
+}
+.footer-text{
+  font-size: 14px;
+  text-align: center;
+}
+/* fin mobile */
   @media (min-width: 1024px) {
     footer{
       max-width: 100%;
@@ -88,20 +64,18 @@ footer{
       justify-content: start;
       padding: 20px;
     }
-    .grid-container .container-logo{
+    .grid-footer .container-logo{
       display: flex;
       justify-content: center;
       align-items: center;
       align-self: center;
       align-content: center;
-      
+}
+.grid-footer .container-logo .logo-footer{
+  max-width: 125px;
+}
+.footer-text{
+  font-size: 1em;
+}
 
-    }
-    .grid-container p{
-      font-size: 15px;
-    }
-    .grid-container .logo-footer {
-      width: 80px;
-    }
-  }
-  
+}

@@ -1,8 +1,9 @@
 import hdlogo from '../../assets/mdmlogo.png';
 import Menu from '../menu/Menu';
-import Intam from '../../assets/instam-icons.svg'; 
-import Fb from '../../assets/fb-icons.svg'; 
-import Whatp from '../../assets/whatsapp-icons.svg'; 
+import Intam from '../../assets/instam-icons-header.svg'; 
+import Fb from '../../assets/fb-icons-header.svg'; 
+import Whatp from '../../assets/whatsapp-icons-header.svg'; 
+import { Link } from 'react-router-dom';
 import './header.css';
 
 
@@ -14,21 +15,20 @@ function Header() {
     <div className='offer'>Si te gusta lo mejor, ¡nosotros lo fabricamos! </div> 
      <div className='wrp-header'>
         <div className='wrp-logo'>
-        <img className="logo-init" src={hdlogo} alt="Mi Imagen" />
+        <a href='/'><img className="logo-init" src={hdlogo} alt="Mi Imagen" ></img></a>
         </div>
         <div className='wrp-title'>
-          <h1 className='title'>2MG SOLUTIONS</h1>
-          <span>Somos los cacaos de la joyería</span>
+          <h1 className='title'><a href="/">2MG DISTINTIVOS</a></h1>
+          <span className='title-sup'>Somos los cacaos de la joyería</span>
         </div>
         <div className='wrp-follow'>
-          <li><a href="#"><img src={Intam} alt="facebook" /></a></li>
-          <li><a href="#"><img src={Fb} alt="facebook" /></a></li>
-          <li><a href="#"><img src={Whatp} alt="facebook" /></a></li>
-          <span className='menu'> 
-          <Menu />
-          </span>
+        <li><a href="https://www.instagram.com2mgsolutions/" target="_blank" rel="noopener noreferrer"><img className='svg-follows-header' src={Intam} alt="" /></a></li>
+        <li><a href="https://www.facebook.com/2MGSOLUTIONSSAS/" target="_blank" rel="noopener noreferrer"><img className='svg-follows-header' src={Fb} alt="" /></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=+573108839772&text=Bienvenido%20a%202MGDistintivos%20productos%20a%20tu%20medida!" target="_blank" rel="noopener noreferrer"><img className='svg-follows-header' src={Whatp} alt="" /></a></li>
+          
           
         </div>
+        <Menu />
       </div>
       </header>
       </>
