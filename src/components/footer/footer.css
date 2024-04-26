@@ -5,7 +5,7 @@ footer{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
   }
   .grid-footer .container-logo{
     display: flex;
@@ -54,9 +54,10 @@ footer .footer-contacto .svg-follows{
   text-align: center;
 }
 /* fin mobile */
-  @media (min-width: 1024px) {
+@media (min-width: 1024px) {
     footer{
       max-width: 100%;
+      text-align: center;
     }
     footer .footer-contacto {
       display: flex;
@@ -75,7 +76,42 @@ footer .footer-contacto .svg-follows{
   max-width: 125px;
 }
 .footer-text{
-  font-size: 1em;
+  text-align: center;
+  /* font-size: 1em; */
 }
-
+footer .footer-contacto .svg-follows{
+  width: 30px;
+  margin: 4px;
+}
+.footer-text{
+  font-size: 14px;
+  text-align: center;
+}
+}
+@media (min-width: 1280px) {
+  .footer-text{
+    font-size: 1.125em;
+  }
+  footer .footer-contacto .svg-follows{
+    width: 35px;
+    margin: 4px;
+  } 
+}
+@media (min-width: 1600px) {
+  .footer-text{
+    font-size: 1.25em;
+  }
+  footer .footer-contacto .svg-follows{
+    width: 40px;
+    margin: 4px;
+  } 
+}
+@media (min-width: 1600px) {
+  .footer-text{
+    font-size: 1.25em;
+  }
+  footer .footer-contacto .svg-follows{
+    width: 40px;
+    margin: 4px;
+  } 
 }

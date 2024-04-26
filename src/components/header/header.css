@@ -6,6 +6,13 @@
     color: #FDDFBA;
     text-align: center;
     z-index: 1000;
+    
+  }
+  .offer .text-offer{
+    font-size: 16px;
+    margin: auto;
+    padding: 0;
+    text-align: center;
   }
   header{
     width: 100%;
@@ -28,15 +35,11 @@
     top: 0px;
     z-index: 1000;
     background-color: white;  */
-
-
     background-color: white;
-
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-
-
   }
   .wrp-header .wrp-title{
+    
     margin: 0%;
     padding: 0;
     display: flex;
@@ -66,58 +69,56 @@
 
   }
 
-  .wrp-header .wrp-logo img{
+  .wrp-header .wrp-logo .logo-init{
     width: 90px;
+    margin: 0;
+    padding: 0;
   }
   .wrp-header .wrp-follow img{
-    max-width: 50px;
+    /* max-width: 50px;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: center; */
 
   }
   .wrp-header .wrp-follow{
-     display: none;
      list-style: none;
+}
+.svg-follows-header{
+  display: none;
 }
 
 /* FIN DE MOBLE */
 @media (min-width: 720px) {
-  .wrp-header{
-    display: flex;
-    justify-content: space-between;
-    
-
-  }
-  .wrp-header .wrp-logo{
-    width: 5%; 
-   }
-  
   .wrp-header .wrp-title{
+    padding-left: 55px;
     width: 60%;
   }
+  .wrp-header .wrp-title .title{
+    font-size: 1.70em;
+  }
+  .wrp-header .wrp-title .title-sup{
+    font-size: 1.125em;
+  }
   .wrp-header .wrp-follow{
-    width: 0%; /* Ajusta el ancho según sea necesario */
-    display: flex;
+     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
   }
   .wrp-header .wrp-follow .svg-follows-header{
+    display: block;   
     width: 40px;
-    padding: 0 4px;
-    
+    padding: 0 3px;
   }
 }
-
-
 @media (min-width: 1024px) {
 
     .offer{
       background-color:#761113 ;
       color: white;
       text-align: center;
-      padding-left: 325px; 
+      padding-left: 160px;
 
     }
     header{
@@ -165,3 +166,9 @@
 
      }
   }
+
+@media (min-width: 1260px) {
+  .offer{
+    padding-left: 215px;
+  }
+}

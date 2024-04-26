@@ -1,0 +1,23 @@
+/* inicio carousel modal MOVIL  */
+.mod-carosel .carousel-image{
+    width: 100%; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+  
+  }
+  .carousel-image {
+    width: 0px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    background-size: cover;
+    object-fit: cover; /* Para que la imagen cubra todo el contenedor */
+  }
+
+  /* FIN CARROSUEL MOVIL*/
+  
+  @media(min-width:1024px){
+    .mod-carosel{
+      padding-top: 25px;
+    }
+    .carousel-image{
+      height: 10900px;
+    }
+  }

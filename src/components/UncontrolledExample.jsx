@@ -6,6 +6,7 @@ import Joyeria from '../assets/img-home/anillos1.jpg'
 import Medallas from '../assets/notimg.png';
 import Empresarial from '../assets/img-home/pulsera2.jpg'
 // import ServiDigaimge from '../../assets/Estatuillas.jpg';
+import './unCarrosuel.css'
 
 function UncontrolledExample() {
   

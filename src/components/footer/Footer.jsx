@@ -16,7 +16,7 @@ function Footer(){
     
     <p className='footer-text'>Cra. 110 Bis #64d-64, Engativa, Bogotá <br />
       Correo: comercial@2mgsolutions.com <br />
-      <a href="tel:+573108839772">Telefono: +57 3108839772</a>
+      <a href="tel:+573108839772" className='footer-text'>Telefono: +57 3108839772</a>
     </p>
     {/* <p>Correo: comercial@2mgsolutions.com</p>
     <p>Telefono: 3214298999</p> */}
